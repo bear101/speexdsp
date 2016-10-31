@@ -82,6 +82,8 @@
 #define spx_uint16_t unsigned short
 #define spx_uint32_t unsigned int
 
+#define speex_assert(cond)
+
 #else /* OUTSIDE_SPEEX */
 
 #include "speexdsp_types.h"
@@ -104,6 +106,7 @@ enum {
    RESAMPLER_ERR_BAD_STATE       = 2,
    RESAMPLER_ERR_INVALID_ARG     = 3,
    RESAMPLER_ERR_PTR_OVERLAP     = 4,
+   RESAMPLER_ERR_OVERFLOW        = 5,
 
    RESAMPLER_ERR_MAX_ERROR
 };
