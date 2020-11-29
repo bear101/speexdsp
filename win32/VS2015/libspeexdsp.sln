@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testdenoise", "tests\testdenoise.vcxproj", "{961B8359-1393-4EF7-B8E0-67B6FE1C6DA9}"
 EndProject
@@ -236,6 +236,7 @@ Global
 		{03207781-0D1C-4DB3-A71D-45C608F28DBD}.Debug|Win32.Build.0 = Debug|Win32
 		{03207781-0D1C-4DB3-A71D-45C608F28DBD}.Debug|Windows Mobile 5.0 Pocket PC SDK (ARMV4I).ActiveCfg = Debug|Win32
 		{03207781-0D1C-4DB3-A71D-45C608F28DBD}.Debug|x64.ActiveCfg = Debug|x64
+		{03207781-0D1C-4DB3-A71D-45C608F28DBD}.Debug|x64.Build.0 = Debug|x64
 		{03207781-0D1C-4DB3-A71D-45C608F28DBD}.Release_Dynamic_SSE|Win32.ActiveCfg = Release_Dynamic_SSE|Win32
 		{03207781-0D1C-4DB3-A71D-45C608F28DBD}.Release_Dynamic_SSE|Windows Mobile 5.0 Pocket PC SDK (ARMV4I).ActiveCfg = Release_Dynamic_SSE|Win32
 		{03207781-0D1C-4DB3-A71D-45C608F28DBD}.Release_Dynamic_SSE|x64.ActiveCfg = Release_Dynamic_SSE|x64
@@ -268,8 +269,12 @@ Global
 		{03207781-0D1C-4DB3-A71D-45C608F28DBD}.Release|Win32.Build.0 = Release|Win32
 		{03207781-0D1C-4DB3-A71D-45C608F28DBD}.Release|Windows Mobile 5.0 Pocket PC SDK (ARMV4I).ActiveCfg = Release|Win32
 		{03207781-0D1C-4DB3-A71D-45C608F28DBD}.Release|x64.ActiveCfg = Release|x64
+		{03207781-0D1C-4DB3-A71D-45C608F28DBD}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F2C794D-56F4-400F-9E8B-97D2C4190B80}
 	EndGlobalSection
 EndGlobal
